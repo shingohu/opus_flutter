@@ -533,6 +533,8 @@ OpusEncoder *opus_encoder_create(opus_int32 Fs, int channels, int application, i
       return NULL;
    }
    ret = opus_encoder_init(st, Fs, channels, application);
+   ret = opus_encoder_ctl(st, OPUS_SET_VBR(0));
+   ret = opus_encoder_ctl(st, OPUS_SET_BITRATE(10000));
    if (error)
       *error = ret;
    if (ret != OPUS_OK)

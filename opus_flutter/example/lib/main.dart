@@ -3,10 +3,10 @@ import 'dart:math' show min;
 import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
-import 'package:opus_flutter/opus_flutter.dart' as opus_flutter;
 import 'package:opus_dart/opus_dart.dart';
-import 'package:share_plus/share_plus.dart';
+import 'package:opus_flutter/opus_flutter.dart' as opus_flutter;
 import 'package:platform_info/platform_info.dart';
+import 'package:share_plus/share_plus.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

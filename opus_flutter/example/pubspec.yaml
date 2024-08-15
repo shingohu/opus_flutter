@@ -26,6 +26,8 @@ dependency_overrides:
     path: ../../opus_flutter_web
   opus_flutter_windows:
     path: ../../opus_flutter_windows
+  opus_flutter_macos:
+    path: ../../opus_flutter_macos
 
 dev_dependencies:
   flutter_test:

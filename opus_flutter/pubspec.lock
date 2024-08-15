@@ -86,9 +86,11 @@ packages:
   opus_flutter_macos:
     dependency: "direct main"
     description:
-      path: "../opus_flutter_macos"
-      relative: true
-    source: path
+      path: opus_flutter_macos
+      ref: HEAD
+      resolved-ref: e50617072522c4c1beae180c79983f822653153c
+      url: "https://github.com/shingohu/opus_flutter.git"
+    source: git
     version: "0.0.1"
   opus_flutter_platform_interface:
     dependency: "direct main"
