@@ -7,6 +7,6 @@ import 'package:opus_flutter_platform_interface/opus_flutter_platform_interface.
 class OpusFlutterAndroid extends OpusFlutterPlatform {
   /// Opens the shared opus library build by this plugin.
   Future<dynamic> load() async {
-    return DynamicLibrary.open('libopus.so');
+    return DynamicLibrary.open('libopus-shingo.so');
   }
 }

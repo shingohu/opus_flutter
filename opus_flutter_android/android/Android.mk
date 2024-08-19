@@ -3,7 +3,7 @@ include $(CLEAR_VARS)
 include $(LOCAL_PATH)/celt_sources.mk
 include $(LOCAL_PATH)/opus_sources.mk
 include $(LOCAL_PATH)/silk_sources.mk
-LOCAL_MODULE    := opus
+LOCAL_MODULE    := opus-shingo
 LOCAL_OPUS_VERSION :='"1.3.1"'
 # To use fixed instead of floating point arithmetic, set this to true
 LOCAL_FIXED := false
